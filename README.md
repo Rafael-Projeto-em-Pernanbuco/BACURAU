@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ótica Alves</title>
+  <title>Ótica Visão</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
@@ -85,20 +85,20 @@
   <!-- Links para atendimento online -->
   <div class="chat-links">
     <a href="https://wa.me/5587999999999" target="_blank"><i class="fab fa-whatsapp"></i></a>
-    <a href="https://instagram.com/oticaalves" target="_blank"><i class="fab fa-instagram"></i></a>
-    <a href="https://facebook.com/oticaalves" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://twitter.com/oticaalves" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.kwai.com/@oticaalves" target="_blank"><i class="fa-solid fa-video"></i></a>
-    <a href="mailto:entregas@oticaalves.com"><i class="fas fa-envelope"></i></a>
-    <a href="https://chat.oticaalves.com/pedidos" target="_blank"><i class="fas fa-headset"></i></a>
+    <a href="https://instagram.com/oticavisao" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/oticavisao" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://twitter.com/oticavisao" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.kwai.com/@oticavisao" target="_blank"><i class="fa-solid fa-video"></i></a>
+    <a href="mailto:entregas@oticavisao.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://chat.oticavisao.com/pedidos" target="_blank"><i class="fas fa-headset"></i></a>
   </div>
 
   <!-- Mapa com localização -->
   <div class="section">
     <h2>Nosso Endereço</h2>
-    <p>Rua Luiz Alexandre, Centro - Exu, PE</p>
+    <p>Rua Santa Luzia, Centro - Juazeiro do Norte, CE</p>
     <iframe 
-      src="https://www.google.com/maps?q=Rua+Luiz+Alexandre,+Exu,+PE&output=embed"
+      src="https://www.google.com/maps?q=Rua+Santa+Luzia,+Juazeiro do Norte,+CE&output=embed"
       allowfullscreen="" 
       loading="lazy">
     </iframe>
@@ -107,7 +107,7 @@
   <!-- Formulário de pedidos e entregas -->
   <div class="form-section">
     <h2>Cadastre seu e-mail para pedidos e entregas</h2>
-    <form action="mailto:entregas@oticaalves.com" method="POST" enctype="text/plain">
+    <form action="mailto:entregas@oticavisao.com" method="POST" enctype="text/plain">
       <input type="email" name="email" placeholder="Digite seu e-mail" required>
       <button type="submit">Cadastrar</button>
     </form>
