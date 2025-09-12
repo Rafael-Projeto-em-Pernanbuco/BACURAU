@@ -169,7 +169,7 @@
 
     <!-- Seção Redes Sociais -->
     <div class="social-buttons">
-      <a href="https://wa.me/55SEUNUMERO" target="_blank">WhatsApp</a>
+      <a href="https://wa.me/5587998188375" target="_blank">WhatsApp</a>
       <a href="https://facebook.com/SEUPAGINAFACEBOOK" target="_blank">Facebook</a>
       <a href="https://instagram.com/SEUINSTAGRAM" target="_blank">Instagram</a>
       <a href="https://www.kwai.com/SEUPERFILKWAI" target="_blank">Kwai</a>
