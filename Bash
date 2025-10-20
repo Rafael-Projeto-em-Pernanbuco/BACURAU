@@ -1,0 +1,4 @@
+/meusite/
+├── index.html         # Seu HTML fornecido
+├── index.bash         # Servidor em Bash que serve a página
+└── mensagens.log       # Log de mensagens do chat
