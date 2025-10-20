@@ -262,20 +262,36 @@
       }
     });
 
-    // Enviar mensagem (simples front-end)
-    document.getElementById('send-btn').addEventListener('click', function() {
-      var input = document.getElementById('chat-input');
-      var msg = input.value.trim();
-      if (msg !== '') {
-        var msgs = document.getElementById('chat-messages');
-        var div = document.createElement('div');
-        div.textContent = "Você: " + msg;
-        msgs.appendChild(div);
-        input.value = '';
-        msgs.scrollTop = msgs.scrollHeight;
-        // Aqui você precisa enviar pro servidor para resposta automática ou atendimento real
-      }
-    });
+    // Enviar mensagem (agora com fetch para Bash)
+document.getElementById('send-btn').addEventListener('click', function () {
+  var input = document.getElementById('chat-input');
+  var msg = input.value.trim();
+  if (msg !== '') {
+    var msgs = document.getElementById('chat-messages');
+    var div = document.createElement('div');
+    div.textContent = "Você: " + msg;
+    msgs.appendChild(div);
+    input.value = '';
+    msgs.scrollTop = msgs.scrollHeight;
+
+    // Enviar para backend Bash
+    fetch('/chat', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'text/plain'
+      },
+      body: msg
+    })
+    .then(response => response.text())
+    .then(data => {
+      let div = document.createElement('div');
+      div.textContent = "Servidor: " + data;
+      msgs.appendChild(div);
+      msgs.scrollTop = msgs.scrollHeight;
+    })
+    .catch(error => console.error('Erro ao enviar mensagem:', error));
+  }
+});
 
     // Áudio gravador simples
     let mediaRecorder;
